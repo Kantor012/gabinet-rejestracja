@@ -8,15 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Content Remove="index.cshtml" />
-  </ItemGroup>
-
-  <ItemGroup>
     <None Remove="Views\Home\NewFile.txt" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <None Include="index.cshtml" />
   </ItemGroup>
 
   <ItemGroup>
