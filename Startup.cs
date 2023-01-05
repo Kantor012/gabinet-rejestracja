@@ -47,7 +47,6 @@ namespace gabinet_rejestracja
             }
             app.UseSession();
             app.UseAuthentication();
-            app.UseHttpsRedirection();
             app.UseStaticFiles();
 
             app.UseRouting();
